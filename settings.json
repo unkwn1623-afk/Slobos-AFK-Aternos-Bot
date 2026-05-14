@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Badri_Satwik.aternos.me",
+    "ip": "BadriSatwik.aternos.me",
     "port": 55150,
     "version": "1.21.11",
     "try-creative": false
