@@ -1223,6 +1223,12 @@ function createBot() {
       checkTimeoutInterval: 600000,
     });
 
+    bot.on('playerSleep', (player) => {
+  if (player.username === 'unkwn1623' || player.username === 'muneeb') {
+    bot.quit()
+  }
+})
+
     bot.loadPlugin(pathfinder);
 
     // FIX: connection timeout - end the old bot before reconnecting to avoid ghost bots
